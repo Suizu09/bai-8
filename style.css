@@ -467,6 +467,7 @@
 }
 
 .byname2 .web {
+    position: relative;
     width: 119px;
     height: 29px;
     opacity: 70%;
@@ -474,7 +475,9 @@
     font-size: 17px;
     line-height: 29px;
     letter-spacing: -0.2px;
+    z-index: -1px;
     color: #161C2D;
+    right: 22px;
 }
 
 .About {
@@ -1059,4 +1062,251 @@
     width: 100%;
     height: 774px;
     background-color: #161C2D;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 79.6px;
+}
+
+.Ask2 {
+    width: 1110px;
+    height: 128px;
+    display: flex;
+    align-items: center;
+    gap: 301px;
+    margin-top: 89px;
+}
+
+.Ask2left {
+    width: 589px;
+    height: 128px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.Ask2left h2 {
+    width: 526px;
+    height: 44px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    letter-spacing: -1.2px;
+    color: #ffffff;
+}
+
+.Ask2left p {
+    width: 589px;
+    height: 64px;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 32px;
+    letter-spacing: -0.2px;
+    color: #ffffff;
+    opacity: 70%;
+}
+
+.footend {
+    width: 1600px;
+    height: 496px;
+    background-color: #161C2D;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 122px;
+}
+
+.hrfoot {
+    width: 1108px;
+    height: 1px;
+    background-color: #272B39;
+}
+
+.footllayout {
+    width: auto;
+    height: auto;
+    display: flex;
+}
+
+.footendleft h3 {
+    width: 178px;
+    height: 33px;
+    font-family: 'Rubik';
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 100%;
+    letter-spacing: -0.16px;
+    color: #ffffff;
+}
+
+.footendleft p {
+    width: 274px;
+    height: 78px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 26px;
+    letter-spacing: -0.1px;
+    color: #ffffff;
+    opacity: 65%;
+    margin-top: 36px;
+}
+
+.footicon {
+    width: 142px;
+    height: 18px;
+    display: flex;
+    gap: 24px;
+    margin-top: 44px;
+}
+
+.footendleft {
+    width: 274px;
+    height: 209px;
+}
+
+.Company {
+    width: 144px;
+    height: 206px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-left: 101px;
+}
+
+.Company p {
+    width: 68px;
+    height: 26px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 26px;
+    letter-spacing: -0.1px;
+    opacity: 65%;
+    color: #ffffff;
+}
+
+.commain {
+    width: 144px;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.commain p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 40px;
+    letter-spacing: -0.2px;
+    color: #ffffff;
+    opacity: 100%;
+}
+
+.Product p {
+    width: 68px;
+    height: 26px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 26px;
+    letter-spacing: -0.1px;
+    opacity: 65%;
+    color: #ffffff;
+}
+
+.promain {
+    width: 144px;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+}
+
+.promain p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 40px;
+    letter-spacing: -0.2px;
+    color: #ffffff;
+    opacity: 100%;
+}
+
+.Servicess p {
+    width: 68px;
+    height: 26px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 26px;
+    letter-spacing: -0.1px;
+    opacity: 65%;
+    color: #ffffff;
+}
+
+.sermain {
+    width: 144px;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+}
+
+.sermain p {
+    width: auto;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 40px;
+    letter-spacing: -0.2px;
+    color: #ffffff;
+    opacity: 100%;
+}
+
+.Legal p {
+    width: 68px;
+    height: 26px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 26px;
+    letter-spacing: -0.1px;
+    opacity: 65%;
+    color: #ffffff;
+}
+
+.lemain {
+    width: 144px;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+}
+
+.lemain p {
+    width: auto;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 40px;
+    letter-spacing: -0.2px;
+    color: #ffffff;
+    opacity: 100%;
+}
+
+.Product {
+    width: 144px;
+    height: 206px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-left: 47px;
+}
+
+.Servicess {
+    width: 144px;
+    height: 206px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-left: 52px;
+}
+
+.Legal {
+    width: 144px;
+    height: 206px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-left: 50px;
 }
